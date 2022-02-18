@@ -17,3 +17,8 @@ As one example we provide the `convert.sh` script to convert a given local offic
 ## Docker Hub
 
 Our image will be published on docker hub.
+
+## Error "the input device is not a TTY"
+
+Change "-it" to "--tty" in convert.sh
+
